@@ -1,30 +1,71 @@
-# Concert Hall Marketing Text Generator
+# 🎵 Concert Hall Marketing Text Generator
 
-This project is a **Streamlit-based web application** that generates marketing texts for concert halls. It uses OpenAI's API to create customized marketing content based on user inputs.
+**Concert Hall Marketing Text Generator** is a **Streamlit-based web application** that generates customized marketing texts for concert halls. The application uses the powerful OpenAI API to create creative and targeted content based on user inputs.
 
-## Features
+---
 
-- Generate marketing texts tailored to specific audiences.
-- User-friendly interface for inputting details like target audience, marketing channel, and more.
-- Adjustable text length for flexibility.
-- Powered by OpenAI's API for high-quality text generation.
+## 🚀 Features
 
-## Technologies Used
+- ✨ Generate marketing texts based on target audience, channel, and text length  
+- � AI-powered text suggestions using OpenAI API  
+- 🖥️ User-friendly interface with Streamlit  
+- 📏 Adjustable text length for short or detailed content  
+- 📦 Ready for containerization with Docker  
 
-- **Python**: Core programming language.
-- **Streamlit**: Framework for building the web application.
-- **OpenAI API**: For generating marketing text.
-- **Docker**: Containerization for easy deployment.
+---
 
-## Prerequisites
+## 🛠️ Technologies Used
 
-- Python 3.10 or higher
-- Docker and Docker Compose
-- OpenAI API key
+- **Python** – Main programming language  
+- **Streamlit** – Web UI framework  
+- **OpenAI API** – Text generation  
+- **Docker** – Containerization and deployment  
 
-## Installation
+---
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/<your-username>/Concert-Hall-Marketing-Text-Generator.git
-   cd Concert-Hall-Marketing-Text-Generator
+## ✅ Requirements
+
+- Python 3.10 or higher  
+- Docker & Docker Compose  
+- A valid OpenAI API key  
+
+---
+
+## ⚙️ Installation & Setup
+
+### 🔹 1. Clone repository
+
+```bash
+git clone https://github.com/Ahmad1993Aj/AdCraft_AI.git
+cd Concert-Hall-Marketing-Text-Generator
+```
+### 🔹 2. Configure API access
+Create a file called credentials.py in the factory folder with the following content:
+```bash
+python
+openapi_key = "DEIN_OPENAI_API_KEY"  # Ersetze dies mit deinem tatsächlichen API-Schlüssel
+```
+### 🔹 3. Install dependencies
+```bash
+
+pip install -r requirements.txt
+
+```
+### 🔹 4. Start application
+
+```bash 
+
+streamlit run main.py
+```
+###  🐳 Docker (Optional)
+If you want to use Docker, you can start the application with the following command:
+```bash
+docker-compose up --build
+```
+
+### 📄 Lizenz
+This project is licensed under the MIT License.
+
+### 👨‍💻 Autor
+Ahmad
+GitHub: Ahmad1993Aj
